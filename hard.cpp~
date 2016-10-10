@@ -8,9 +8,7 @@ bool isDivisableByBase(int&, int&);
 int main(){
 	int target, base;
 	
-	std::cout<<"Please enter the target or total you would like to reach (this would be the '36' in '36 = 3^3 + (3 *3)' )"<<std::endl;
 	std::cin>>target;
-	std::cout<<"Please enter the base number (this would be the first '3' in '36 = 3^3 + (3 * 3)' )"<<std::endl;
 	std::cin>>base;
 	int i = getPower(target, base);
 	int remainder = getRemainder(i, base, target);
